@@ -14,9 +14,20 @@
 
 }
 
-.aboutBG
+.contactBG
 {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(//Assets/images/About.jpg);
+
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(/Assets/images/contact.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.mainBG
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(/Assets/images/mainPage1.jpg);
   background-size: cover;
   background-position: center;
 
@@ -29,10 +40,3 @@
     font-size: 45px;
 }
 
-body {
-    background: url('/Assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
