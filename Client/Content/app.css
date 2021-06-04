@@ -8,8 +8,31 @@
 .projectBG
 {
 
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(//Assets/images/Photoshop.png);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(//Assets/images/ProjectAbstract.jpg);
   background-size: cover;
   background-position: center;
 
+}
+
+.aboutBG
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(//Assets/images/About.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.fas
+{
+    height: 30px;
+    size: 30px;
+    font-size: 45px;
+}
+
+body {
+    background: url('/Assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
